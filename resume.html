@@ -3,6 +3,8 @@
     <head>
         <link rel="stylesheet" href="style.css"/>
         <title>Resume - Justin Pihowich</title>
+        <meta name="description" content="Resume page on personal website of Justin Pihowich">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="website.js" async></script>
     </head>
 
@@ -15,10 +17,8 @@
                 </div>
             </nav>
         </header>
+
         <div class="main-section">
-
-
-
 
             <div class="info">
                 <p id="resume-name"><b>Justin</b> Pihowich</p>
@@ -61,7 +61,7 @@
 
             <div id="projects">
                 <h3>PROJECTS</h3>
-                <button onclick="showHideButton()" id="show-hide-projects">Hide</button>
+                <button onclick="showHideButtonProjects()" id="show-hide-projects">Hide</button>
 
                 <span id=projects-section-sub>
                     <p class="sub-category">
@@ -91,32 +91,29 @@
 
 
 
-            <div id="work-section">
+            <div id="work">
                 <h3>WORK EXPERIENCE</h3>
-                <button type="button" class="show-hide">Show</button>
-                <br>
-                <br>
-                <div>
-                    <b>TARGET</b>, Tech Consultant
-                    <span class="year">June 2018 - May 2019</span>
-                </div>
-                <span class="work-location">Eden Prairie, MN</span>
-                <ul>
-                    <li>Helped customers with any tech inquiries regarding products and services</li>
-                    <li>Assisted in training of new team members</li>
-                </ul>
-                <div>
-                    <b>GORDON DINING HALL</b>, Market Team Member
-                    <span class="year">Aug 2019 - Jan 2020</span>
-                </div>
-                <span class="work-location">Madison, WI</span>
-                <ul>
-                    <li>Worked with other students and staff to learn kitchen and food prep</li>
-                </ul>
+                <button onclick="showHideButtonWork()" id="show-hide-work">Hide</button>
+                <span id=work-section-sub>
+                    <p>
+                        <b>TARGET</b>, Tech Consultant
+                        <span class="year">June 2018 - May 2019</span>
+                    </p>
+                    <span class="work-location">Eden Prairie, MN</span>
+                    <ul>
+                        <li>Helped customers with any tech inquiries regarding products and services</li>
+                        <li>Assisted in training of new team members</li>
+                    </ul>
+                    <p>
+                        <b>GORDON DINING HALL</b>, Market Team Member
+                        <span class="year">Aug 2019 - Jan 2020</span>
+                    </p>
+                    <span class="work-location">Madison, WI</span>
+                    <ul>
+                        <li>Worked with other students and staff to learn kitchen and food prep</li>
+                    </ul>
+                </span>
             </div>
-
-
-
 
         </div>
     </body>
