@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: Roboto;
+}
+
+.main-section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #666666;
+    font-weight: normal;
+    font-size: 17pt;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#resume-name {
+    font-size: 22pt;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#contact-info {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sub-category {
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+#degree-info {
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.work-location {
+    font-size: 9pt;
+    color: #666666;
+}
+
+.year {
+    font-weight: normal;
+    float: right;
+    margin-right: 20%;
+}
