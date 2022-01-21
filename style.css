@@ -4,8 +4,9 @@
     font-family: Roboto;
 }
 
-.nameplate {
-    text-align: center;
+.main-section {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .nav a {
@@ -16,15 +17,17 @@ h3 {
     color: #666666;
     font-weight: normal;
     font-size: 17pt;
+    display: inline-block;
+    margin-bottom: 0px;
 }
 
-.resume-name {
+#resume-name {
     font-size: 22pt;
     text-align: center;
     margin-bottom: 0px;
 }
 
-.contact-info {
+#contact-info {
     text-align: center;
     margin-top: 0px;
 }
@@ -34,7 +37,7 @@ h3 {
     font-size: 13pt;
 }
 
-.degree-info {
+#degree-info {
     font-size: 11pt;
     font-style: italic;
 }
@@ -42,4 +45,10 @@ h3 {
 .work-location {
     font-size: 9pt;
     color: #666666;
+}
+
+.year {
+    font-weight: normal;
+    float: right;
+    margin-right: 20%;
 }
