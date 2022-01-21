@@ -52,3 +52,7 @@ h3 {
     float: right;
     margin-right: 20%;
 }
+
+#work-section-sub p {
+    margin-bottom: 0px;
+}
